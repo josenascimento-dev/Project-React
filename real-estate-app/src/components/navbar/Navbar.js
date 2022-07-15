@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
 import {FaRegTimesCircle} from 'react-icons/fa'
-import {BsFillHouseFill} from 'react-icons/bs'
+import {GiOpenBook} from 'react-icons/gi'
 
  import './Navbar.css'
 
@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='container'>
-                <h1><span><BsFillHouseFill />Real</span>Estate</h1>
+                <h1><span><GiOpenBook />Real</span>Estate</h1>
                 <button className="btn">Sign In</button>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li><a href='#'>Home</a></li>

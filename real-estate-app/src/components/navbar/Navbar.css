@@ -16,7 +16,7 @@
     padding: 1rem;
 }
 .navbar span{
-    color: #5651e5;
+    color: rgb(228, 194, 0);
 }
 .navbar .nav-menu{
     display: flex;
