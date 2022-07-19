@@ -1,7 +1,8 @@
 import React, {useState} from "react"
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
 import {FaRegTimesCircle} from 'react-icons/fa'
-import {GiOpenBook} from 'react-icons/gi'
+import {GiSpellBook} from 'react-icons/gi'
+import {RiErrorWarningLine} from 'react-icons/ri'
 
  import './Navbar.css'
 
@@ -15,14 +16,16 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='container'>
-                <h1><span><GiOpenBook />Real</span>Estate</h1>
-                <button className="btn">Sign In</button>
+                <h1><span><GiSpellBook />Star</span>Books</h1>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li><a href='#'>Home</a></li>
-                    <li><a href='#'>Search</a></li>
-                    <li><a href='#'>About</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#'>categories</a></li>
+                    <li><a href='#'>Recommended</a></li>
+                    <li><a href='#'>Best Sellers</a></li>
+                    <li><a href='#'>Book Tips</a></li>
+                    <li><a href='#'>Help </a><span><RiErrorWarningLine/></span></li>
                 </ul>
+                <button className="btn">Sign In</button>
                 <div className='hamburger' onClick={handleClick} >
                     {click ? (<FaRegTimesCircle className='icon'/>) :
                     <HiOutlineMenuAlt4 className='icon' />}
