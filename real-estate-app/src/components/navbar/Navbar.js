@@ -21,11 +21,11 @@ const Navbar = () => {
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>categories</a>
                         <ul>
-                        <li><a href='#'>Romance</a></li>
-                        <li><a href='#'>Historical</a></li>
-                        <li><a href='#'>Horror</a></li>
-                        <li><a href='#'>Thriller</a></li>
-                        <li><a href='#'>Literary Fiction</a></li>
+                           <li><a href='#'>Romance</a></li>
+                           <li><a href='#'>Historical</a></li>
+                           <li><a href='#'>Horror</a></li>
+                           <li><a href='#'>Thriller</a></li>
+                           <li><a href='#'>Literary Fiction</a></li>
                         </ul>
                     </li>
                     <li><a href='#'>Recommended</a></li>
@@ -33,6 +33,7 @@ const Navbar = () => {
                     <li><a href='#'>Book Tips</a></li>
                     <li><a href='#'>Help </a><span><RiErrorWarningLine/></span></li>
                 </ul>
+                <button className="btn">Register</button>
                 <button className="btn">Sign In</button>
                 <div className='hamburger' onClick={handleClick} >
                     {click ? (<FaRegTimesCircle className='icon'/>) :

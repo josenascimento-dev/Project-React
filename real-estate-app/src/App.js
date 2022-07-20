@@ -15,7 +15,7 @@ function App() {
         <meta charSet="utf-8"/>
         <title>StarBooks</title>
         <link rel="canonical" href="http:mysite.com/example"/>
-        <meta name="description" content="Testing text"/>
+        <meta name="description" content="Bookstore"/>
       </Helmet>
         <>
          <Navbar/>

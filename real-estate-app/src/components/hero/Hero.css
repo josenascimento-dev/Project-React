@@ -97,3 +97,33 @@
         width: 100%;
     }
 }
+@media screen and ( max-width: 768px){
+    .hero h1{
+        margin-top: 4rem;
+        font-size: 1.7rem;
+        padding-bottom: 0;
+    }
+    .hero h1 span{
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .hero .search-text{
+        font-size: 1.2rem;
+    }
+   
+}
+@media screen and ( max-width: 460px){
+    .hero h1{
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        padding-bottom: 0;
+    }
+    .hero h1 span{
+        padding-bottom: 1rem;
+        margin: 0;
+    }
+    .hero .search-text{
+        font-size: 1.2rem;
+    }
+   
+}
