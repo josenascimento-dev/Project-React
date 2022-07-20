@@ -1,5 +1,5 @@
 .hero{
-    background-color: rgba(8, 8, 8, 0.288);
+    background-color: rgba(8, 8, 8, 0.205);
     color: #fff;
     height: 80vh;
     width: 100%;
@@ -31,6 +31,13 @@
 .hero h1{
     font-size: 3rem;
     text-transform: capitalize;
+}
+.hero h1 span{
+    display: inline-block;
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(231, 233, 110);
+    
 }
 .hero .search-text{
     margin: 1.5rem;

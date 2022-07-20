@@ -19,7 +19,15 @@ const Navbar = () => {
                 <h1><span><GiSpellBook />Star</span>Books</h1>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li><a href='#'>Home</a></li>
-                    <li><a href='#'>categories</a></li>
+                    <li><a href='#'>categories</a>
+                        <ul>
+                        <li><a href='#'>Romance</a></li>
+                        <li><a href='#'>Historical</a></li>
+                        <li><a href='#'>Horror</a></li>
+                        <li><a href='#'>Thriller</a></li>
+                        <li><a href='#'>Literary Fiction</a></li>
+                        </ul>
+                    </li>
                     <li><a href='#'>Recommended</a></li>
                     <li><a href='#'>Best Sellers</a></li>
                     <li><a href='#'>Book Tips</a></li>
