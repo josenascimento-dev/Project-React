@@ -45,7 +45,6 @@
 .navbar li>span {
     display: block;
     margin: 0.1rem;
-
     float: right;
     font-size: 1.1rem;
 }
@@ -91,7 +90,7 @@
 
 
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 980px) {
     .hamburger {
         display: block;
     }
@@ -113,10 +112,22 @@
 
     .navbar .active {
         right: 0;
+
     }
 
     .navbar .nav-menu li a {
         font-size: 1.5rem;
+    }
+    @media screen and (max-width: 480px){
+        .navbar h1{
+            font-size: 1.5rem;
+        }
+        .btn{
+            font-size: 0.85rem;
+            width: 25%;
+            margin: 0.2rem;
+            text-align: center;
+        }
     }
 
 }
